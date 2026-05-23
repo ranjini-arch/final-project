@@ -1,67 +1,146 @@
-# Project Title
-state level pmfby
-Numpy Tutorial
+# State Level Pradhan Mantri Fasal Bima Yojana (PMFBY)
+# project overview
 
-## Description
-he State Level Pradhan Mantri Fasal Bima Yojana (PMFBY) project is designed to provide information and digital support for farmers under the crop insurance scheme introduced by the Government of India. This project helps users understand crop insurance benefits, claim processes, premium calculations, weather-related risk coverage, and farmer registration details. The project uses Python and NumPy for handling agricultural datasets, performing numerical analysis, and generating statistical insights related to crop production and insurance claims.
+This project focuses on analyzing agricultural insurance data under the State Level Pradhan Mantri Fasal Bima Yojana (PMFBY) using Python for data cleaning, transformation, statistical analysis, and visualization. The project helps understand crop insurance patterns, farmer enrollment, crop loss estimation, claim settlements, weather impact, and agricultural risk trends using real-world farming and insurance datasets.
 
-The main goal of this project is to simplify agricultural insurance management and improve awareness among farmers through data analysis and automation tools
+The analysis was performed using Python libraries such as Pandas, NumPy, Matplotlib, Seaborn, and Power BI for dashboard visualization.
 
-An in-depth paragraph about your project and overview of use.
+## Project Objectives
 
-## Getting Started
+* Analyze crop insurance and farmer claim data
+* Identify major agricultural risk factors affecting farmers
+* Understand crop loss patterns and seasonal trends
+* Perform statistical analysis on agricultural datasets
+* Generate meaningful visualizations and insights
+* Create an interactive Power BI dashboard
 
-### Dependencies
-Python 3.10 or above
-NumPy Library
-Pandas Library
-* Describe any prerequisites, libraries, OS version, etc., needed before installing program.
-* ex. Windows 10
+#Dataset Information
+## Dataset Used
 
-### Installing
+PMFBY Dataset.csv
 
-* How/where to download your program
-* Any modifications needed to be made to files/folders
+# Domain
 
-### Executing program
+* Agriculture Analytics
+* Crop Insurance Analysis
+* Government Scheme Analysis
 
-* How to run the program
-* Step-by-step bullets
-```
-code blocks for commands
-```
+## Features Included in Dataset
 
-## Help
+* Farmer ID
+* Farmer Name
+* District
+* State
+* Crop Type
+* Season
+* Land Area
+* Sum Insured
+* Premium Amount
+* Insurance Company
+* Crop Damage Percentage
+* Rainfall Data
+* Claim Amount
+* Claim Status
+* Settlement Amount
+* Farmer Category
+* Loan Status
+* Weather Condition
+* Yield Production
 
-Any advise for common problems or issues.
-```
-command to run if program contains helper info
-```
+## Technologies Used
 
-## Authors
+* Python
+* Jupyter Notebook
+* Pandas
+* NumPy
+* Matplotlib
+* Seaborn
+* Power BI
 
-Contributors names and contact info
+## python Concepts Covered
 
-ex. Dominique Pizzie  
-ex. [@DomPizzie](https://twitter.com/dompizzie)
+* Data Cleaning
+* Missing Value Handling
+* Duplicate Removal
+* Data Transformation
+* Feature Engineering
+* Exploratory Data Analysis (EDA)
+* Statistical Analysis
+* Data Visualization
+* Correlation Analysis
+* GroupBy Operations
 
-## Version History
+## Analysis Performed
+# Data Cleaning & Preprocessing
 
-* 0.2
-    * Various bug fixes and optimizations
-    * See [commit change]() or See [release history]()
-* 0.1
-    * Initial Release
+* Removed duplicate records
+* Handled missing values
+* Corrected data types
+* Standardized column names
+* Filtered invalid agricultural data
 
-## License
+# Feature Engineering
 
-This project is licensed under the [NAME HERE] License - see the LICENSE.md file for details
+* Created crop loss percentage feature
+* Generated insurance risk indicators
+* Performed seasonal data aggregation
+* Calculated farmer compensation analysis
 
-## Acknowledgments
+# Statistical Analysis
 
-Inspiration, code snippets, etc.
-* [awesome-readme](https://github.com/matiassingers/awesome-readme)
-* [PurpleBooth](https://gist.github.com/PurpleBooth/109311bb0361f32d87a2)
-* [dbader](https://github.com/dbader/readme-template)
-* [zenorocha](https://gist.github.com/zenorocha/4526327)
-* [fvcproductions](https://gist.github.com/fvcproductions/1bfc2d4aecb01a834b46)
+* Mean
+* Median
+* Mode
+* Standard Deviation
+* Correlation Analysis
+* Distribution Analysis
+
+##  Visualizations Created
+# Matplotlib & Seaborn
+
+* Histogram – Farmer Age Distribution
+* Count Plot – Crop Type Analysis
+* Box Plot – Claim Amount vs Crop Damage
+* Scatter Plot – Rainfall vs Yield Production
+* Heatmap – Correlation Matrix
+* Bar Plot – Insurance Claims by District
+* Pie Chart – Claim Status Distribution
+* Distribution Plot – Premium Amount Analysis
+* Count Plot – Farmer Category Analysis
+* Line Plot – Seasonal Crop Insurance Trends
+
+##  Key Insights
+# Agricultural Risk Analysis
+
+* Farmers with higher crop damage percentages received larger claim settlements.
+* Irregular rainfall significantly affected crop yield production.
+* Seasonal crop failures increased insurance claim rates.
+
+# Farmer Trends
+
+* Small and marginal farmers showed higher dependency on crop insurance schemes.
+* Farmers with proper irrigation facilities had lower crop damage risk.
+* Loan-supported farmers participated more actively in PMFBY insurance enrollment.
+
+# Insurance Insights
+
+* Certain districts showed higher insurance claim frequency due to climate conditions.
+* Weather conditions strongly influenced agricultural productivity and compensation amounts.
+* Crop type played an important role in insurance premium calculations.
+
+# Learning Outcomes
+
+Through this project, the following skills were developed:
+
+* Data analysis using Python
+* Data cleaning and preprocessing
+* Exploratory Data Analysis (EDA)
+* Statistical analysis techniques
+* Data visualization using multiple libraries
+* Building agriculture dashboards in Power BI
+* Understanding agricultural and insurance datasets
+* Generating insights from real-world farming data
+
+## Conclusion
+
+This project successfully demonstrated how Python and Power BI can be used for end-to-end agricultural insurance data analysis under the State Level Pradhan Mantri Fasal Bima Yojana (PMFBY). The insights generated from the dataset help identify important crop insurance risk factors, improve farmer awareness, and support better agricultural decision-making through visualization and analytics.
