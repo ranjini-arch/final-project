@@ -108,6 +108,8 @@ PMFBY Dataset.csv
 * Distribution Plot – Premium Amount Analysis
 * Count Plot – Farmer Category Analysis
 * Line Plot – Seasonal Crop Insurance Trends
+# Dash board 
+<img width="756" height="418" alt="image" src="https://github.com/user-attachments/assets/e78eb266-2ee4-4ca5-8064-8c4917124ec6" />
 
 ##  Key Insights
 # Agricultural Risk Analysis
